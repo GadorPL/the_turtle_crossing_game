@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f54efd8-07e7-40c0-9d5e-5349044dbc5d" name="Changes" comment="create car behavior">
+    <list default="true" id="5f54efd8-07e7-40c0-9d5e-5349044dbc5d" name="Changes" comment="detect collision">
+      <change beforePath="$PROJECT_DIR$/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759162016136</updated>
-      <workItem from="1759162017361" duration="4056000" />
+      <workItem from="1759162017361" duration="5546000" />
     </task>
     <task id="LOCAL-00001" summary="the first commit">
       <option name="closed" value="true" />
@@ -111,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759168095435</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="detect collision">
+      <option name="closed" value="true" />
+      <created>1759168832589</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759168832589</updated>
+    </task>
+    <task id="LOCAL-00006" summary="detect collision">
+      <option name="closed" value="true" />
+      <created>1759168843513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759168843513</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,10 +139,11 @@
     <MESSAGE value="the first commit" />
     <MESSAGE value="create player behavior" />
     <MESSAGE value="create car behavior" />
-    <option name="LAST_COMMIT_MESSAGE" value="create car behavior" />
+    <MESSAGE value="detect collision" />
+    <option name="LAST_COMMIT_MESSAGE" value="detect collision" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/the_turtle_crossing$main.coverage" NAME="main Coverage Results" MODIFIED="1759168719546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/the_turtle_crossing$main.coverage" NAME="main Coverage Results" MODIFIED="1759172054269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/the_turtle_crossing$car_manager.coverage" NAME="car_manager Coverage Results" MODIFIED="1759168065855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/the_turtle_crossing$player.coverage" NAME="player Coverage Results" MODIFIED="1759163706999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

@@ -32,4 +32,9 @@ while game_is_on:
         if player.distance(car) < 20:
             game_is_on = False
 
+    #Detect player reaching top of the screen
+    if player.finish_line():
+        player.reset()
+        car_manager.level_up()
+
 screen.exitonclick()
